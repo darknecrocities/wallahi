@@ -48,6 +48,10 @@ pubspec.lock
 **/ios/**/.symlinks
 **/ios/**/profile
 **/ios/**/DerivedData
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
 
 # Python
 __pycache__/
