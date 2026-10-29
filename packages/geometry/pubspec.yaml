@@ -1,0 +1,9 @@
+name: geometry
+description: Computational geometry, vector algebra, and orthogonal wall regularizer for Wallahi.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0
