@@ -1,0 +1,29 @@
+name: wallahi
+description: Computer Vision + Wi-Fi Indoor Spatial Mapping Flutter application.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  room_format:
+    path: ../../packages/room_format
+  geometry:
+    path: ../../packages/geometry
+  wifi_models:
+    path: ../../packages/wifi_models
+  sensor_fusion:
+    path: ../../packages/sensor_fusion
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

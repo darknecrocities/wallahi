@@ -1,0 +1,17 @@
+name: sensor_fusion
+description: Spatiotemporal pose association, robust grid aggregation, and uncertainty estimation for Wallahi.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  room_format:
+    path: ../room_format
+  geometry:
+    path: ../geometry
+  wifi_models:
+    path: ../wifi_models
+
+dev_dependencies:
+  test: ^1.25.0

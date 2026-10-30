@@ -24,6 +24,7 @@ Icon
 build/
 .pub-cache/
 .pub/
+pubspec.lock
 
 # Android
 **/android/.gradle
@@ -47,6 +48,10 @@ build/
 **/ios/**/.symlinks
 **/ios/**/profile
 **/ios/**/DerivedData
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
 
 # Python
 __pycache__/
@@ -55,14 +60,14 @@ __pycache__/
 *.so
 .Python
 env/
+venv/
+ENV/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -71,8 +76,6 @@ wheels/
 .installed.cfg
 *.egg
 .pytest_cache/
-venv/
-ENV/
 
 # Environment Variables & Secrets
 .env

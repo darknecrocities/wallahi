@@ -1,0 +1,13 @@
+name: wifi_models
+description: RF propagation models, spatial IDW interpolation, and RTT multilateration for Wallahi.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  geometry:
+    path: ../geometry
+
+dev_dependencies:
+  test: ^1.25.0
